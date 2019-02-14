@@ -1,1 +1,9 @@
-body{background-color: rgb(255, 0, 179)};
+@import "modules/reset";
+@import "modules/colors";
+@import "modules/mixins";
+@import "modules/variables";
+
+@import "partials/base";
+@import "partials/footer";
+@import "partials/nav";
+@import "partials/banner";
