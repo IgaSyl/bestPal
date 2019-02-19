@@ -1,10 +1,29 @@
-.slick-slide img {
-    display: block;
-    height: 209px;
-    padding: 8px;
+div#slider-wrapper {
+    margin-top: 3%;
+    .slick-prev:before, .slick-next:before{
+        color: grey;
+}
+    .slick-slide img {
+        display: block;
+        height: 209px;
+        padding: 8px;
+    }
+}
+button.btn.btn-outline-danger {
+    float: right;
+
 }
 
-.slick-prev:before, .slick-next:before{
-    color: grey;
+.slick-slide > img:hover{
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
+
+
+
+
 
