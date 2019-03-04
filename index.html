@@ -8,11 +8,15 @@
 
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/main.css">
     <title>bestPal</title>
+
+
   </head>
   <body id="main-page">
+
+    <!-- Navigation-->
      
         <nav class="navbar nav-fill">
 
@@ -24,7 +28,7 @@
 
 
                   <a class="nav-item navbar-brand" href="#">
-                      <img src="./images/logo/logo.svg" width="80" height="80" alt=""class="d-inline-block align-top">
+                      <img src="./images/logo/logo.svg" alt="BestPal" class="navbar-brand--logo d-inline-block align-top">
                   </a>
 
 
@@ -42,30 +46,9 @@
               </form>
 
           </nav>
-
-           <!--<ul class="nav nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Adoptuj</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link active" href="#">ABC</a>
-                          </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">
-                          <img id="logo" src="./images/logo/logo.svg"/>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">O nas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
-                    </li>
-            </ul>
-          -->
-
       </header>
 
+      <!-- Banner-->
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 px-0">
@@ -82,6 +65,7 @@
         </div>
       </div>
 
+      <!-- Quotation-->
       <div class="container quotation-dog">
         <blockquote class="blockquote mb-0">
           <p>Aby mieć właściwe spojrzenie na własną pozycję w życiu, człowiek powinien posiadać psa, który będzie go uwielbiał i kota, który będzie go ignorował.
@@ -90,6 +74,7 @@
         </blockquote>
       </div>
 
+      <!-- Icons -->
       <div class="container icons">
         <div class="row">
           <div class="col-3">
@@ -112,6 +97,7 @@
         </div>
       </div>
 
+      <!-- Slider-dog -->
       <div class="container" id="slider-wrapper">
         <div class="slider-dog">
         <div><img src="./images/cat_pictures/1.jpg" width=100% alt=""></div>
@@ -133,11 +119,12 @@
       <div class="container">
         <div class="row">
           <div class="col-12 button-all-dogs">
-            <button type="button" class="btn btn-outline-danger">...więcej hauu</button>
+            <button type="button" class="btn btn-outline-danger">psy</button>
           </div>
         </div>
       </div>
 
+      <!-- Slider-cat -->
       <div class="container quotation-cat">
           <blockquote class="blockquote mb-0">
             <p>Nie ma przeciętnych kotów.</p>
@@ -185,17 +172,219 @@
         </div>
   
         </div>
-        <div class="container">
+        <div class="container buttonCat">
             <div class="row">
               <div class="col-12 button-all-cat">
-                <button type="button" class="btn btn-outline-danger">...więcej miauu</button>
+                <button type="button" class="btn btn-outline-danger">koty</button>
               </div>
             </div>
+        </div>
+
+        <!-- Blog -->
+        <div class="container card-blog">
+        <div class="card-deck">
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top" src="./images/blog/Socjalizacja_dorosłego_psa.jpg" alt="pies">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Socjalizacja psa</h5>
+              <p class="card-text">Socjalizacja dorosłego psa wygląda inaczej niż socjalizacja szczeniaka, jednak podstawy pozostają zbliżone. Chodzi o zapoznanie psa ze światem, którego nie poznał wcześniej w bezpieczny i komfortowy sposób. U dorosłego psa będzie to trwało dłużej niż ze szczeniakiem...</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-outline-danger">więcej</button>
+            </div>
           </div>
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top" src="./images/blog/Jak_adoptować_kota.jpg" alt="kot">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Jak przygarnąć kota?</h5>
+              <p class="card-text">Zdecydowałem się przygarnąć kota. Nie czuję potrzeby posiadania rasowego, a również świadomość, że uszczęśliwię jakiegoś porzuconego, samotnego zwierzaka, jest dla mnie całkiem istotna. Bo ja kocham koty. Ale to widać zbyt mało, bo obecnie nie jest już tak jak kiedyś...</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-outline-danger">więcej</button>
+            </div>
+          </div>
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top" src="./images/blog/Pierwsze_dni_w_nowym_domu.jpg" alt="kot">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pierwsze dni w domu</h5>
+              <p class="card-text">Już sam przejazd ze schroniska do nowego domu może być dla psa bardzo stresujący. Standardowymi przejawami zdenerwowania są podkulony ogon, obnażone kły czy drżenie ciała. Okazywanie czułości w takim momencie może być dla zwierzęcia dodatkowym obciążeniem...</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-outline-danger">więcej</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- Blog -->
+
+        <!-- Contact -->
+        <div class="container contact">
+          <p class="contact-title"><i class="fas fa-lg fa-envelope pr-3"></i>Skontaktuj się z nami</p>
+          <div class="row">
+            <div class="col-5 contact-form">
+              <form>
+                <div class="form-group">
+                  <label for="form-contact-name" class="">Imię, nazwisko:</label>
+                  <input type="text" id="form-contact-name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="form-contact-email" class="">email:</label>
+                  <input type="email" id="form-contact-email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="form-contact-message" class="">Twoja wiadomość:</label>
+                  <input type="text" id="form-contact-message" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-outline-danger">Wyślij</button>
+              </form>
+            </div>
+            <div class="col-2">
+
+            </div>  
+            <div class="col-5 contact-information">
+              <ul class="contact-information--address">
+                <li>
+                  <p><i class="fas fa-map-marker-alt p-3"></i>Stare Miasto 5, Toruń 87-100</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-phone p-3"></i>500789123</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-envelope p-3"></i>lymkya@example.com</p>
+                </li>
+              </ul>
+
+              <ul class="contact-information--social-media">
+                <li class="list-inline-item">
+                  <a href="#" class="p-4" >
+                    <i class="fab fa-facebook-f fa-lg"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="p-4" >
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="p-4">
+                    <i class="fab fa-linkedin-in fa-lg"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="p-4">
+                    <i class="fab fa-instagram fa-lg"> </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+        <!-- Our Team-->
+
+      <div class="container team">
+        <p class="team-title"><i class="fas fa-users fa-lg pr-3"></i>Nasz zespoł</p>
+        <div class="row">
+          <div class="col-3">
+            <div class="team-member">
+                <div class="team-member--img--container">
+                    <div class="team-member--img"></div>
+                  </div>
+
+              <div class="team-memmber--name">Iga Sylwestrowicz
+
+              </div>
+              <div class="team-member--role">CEO
+
+              </div>
+              <div class="team-member--description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque saepe possimus incidunt nisi, delectus at aliquam asperiores illum nostrum eligendi.
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-3">
+              <div class="team-member">
+                  <div class="team-member--img--container">
+                      <div class="team-member--img"></div>
+                    </div>
+  
+                <div class="team-memmber--name">
+  
+                </div>
+                <div class="team-member--role">
+  
+                </div>
+                <div class="team-member--description">
+  
+                </div>
+  
+              </div>
+            </div>
+            <div class="col-3">
+                <div class="team-member">
+                    <div class="team-member--img--container">
+                        <div class="team-member--img"></div>
+                      </div>
+    
+                  <div class="team-memmber--name">
+    
+                  </div>
+                  <div class="team-member--role">
+
+                  </div>
+                  <div class="team-member--description">
+    
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-3">
+                  <div class="team-member">
+                      <div class="team-member--img--container">
+                          <div class="team-member--img"></div>
+                        </div>
+      
+                    <div class="team-memmber--name">
+      
+                    </div>
+                    <div class="team-member--role">
+  
+                    </div>
+                    <div class="team-member--description">
+      
+                    </div>
+  
+                  </div>
+                </div>
+             </div>
+        </div>
+
+
+        <!-- Footer -->
+<footer class="page-footer">
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <img src="./images/logo/logo.svg" alt="BestPal" class="footer--logo d-inline-block align-top">
+
+
+      </div>
+
+</footer>
+<!-- Footer -->
 
 
 
-  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  <div class="flaticon">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

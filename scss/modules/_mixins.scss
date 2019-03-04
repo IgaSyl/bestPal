@@ -1,4 +1,6 @@
-@mixin border-container {
-    border: 1px solid black;
-    
-}
+@mixin button-color($color-primary, $color-secondary) {
+    color:$color-primary;
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+  }
+

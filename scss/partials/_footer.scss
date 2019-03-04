@@ -1,0 +1,26 @@
+/* {
+
+  }
+
+  */
+  .page-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-main-yellow;
+    padding: 1%;
+
+
+    .container.text-center.text-md-left.mt-5 {
+        padding: 1%;
+    }
+    a{
+        color: $color-font;
+    }
+
+  }
+
+  img.footer--logo.d-inline-block.align-top {
+    width: 25%;
+}
+

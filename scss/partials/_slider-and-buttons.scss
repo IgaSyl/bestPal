@@ -1,0 +1,54 @@
+div#slider-wrapper {
+    margin-top: 3%;
+    .slick-prev:before, .slick-next:before{
+        color:$color-main-purple;
+}
+    .slick-slide img {
+        display: block;
+        height: 209px;
+        padding: 8px;
+    }
+}
+.slick-slide > img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.container.buttonCat {
+    padding-bottom: 3%;
+}
+
+
+// buttons
+
+.btn-outline-danger {
+    float: right;
+    color: $color-main-purple;
+    border-color: $color-main-purple;
+    &:hover{
+            @include button-color(#fff, $color-main-purple);
+        }
+    }
+
+
+
+
+
+.btn-outline-danger.focus, .btn-outline-danger:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba($color-main-purple,.5);
+}
+
+
+
+.btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
+    @include button-color (#fff, $color-main-purple);
+}
+
+
+
+
+
+
+
+

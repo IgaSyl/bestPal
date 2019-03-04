@@ -3,10 +3,33 @@ poczytaj rwd cz2 o img i background*/
 
 
 
-.navbar a{
+.navbar{
+    
+    a{
     color: $color-font;
-    #logo {
-    width: 9%;
+        .navbar-brand--logo {
+        width: 13%;
+        }
+    }
+    a:not(.navbar-brand)::before{
+        content: '';
+        display: block;
+        top:-10px;
+        height: 6px;
+        background-color: $color-main-yellow;
+        position: relative;
+        transform: scale(0,1);
+        transition: transform ease-in-out .2s;
     }
 }
+
+.navbar a:not(.navbar-brand):hover::before{
+    transform: scale(1, 1);
+}
+
+
+
+
+
+
 
