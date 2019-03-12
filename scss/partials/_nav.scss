@@ -1,17 +1,29 @@
-/*zmniejsz logo żeby width 100% miało taki rozmiar
-poczytaj rwd cz2 o img i background*/
+
+//poczytaj rwd cz2 o img i background
+
+nav.container.navbar.navbar-expand-md.navbar-light.bg-faded.sticky-top {
+    background-color: #fff;
+}
 
 
 
-.navbar{
-    
-    a{
-    color: $color-font;
-        .navbar-brand--logo {
-        width: 13%;
-        }
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: $color-grey;
+    font-size: 150%;
+    text-transform: uppercase;
+    padding-right: 40px;
+
+
+
     }
-    a:not(.navbar-brand)::before{
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: $color-grey;
+        }
+
+
+    a.nav-link::before{
         content: '';
         display: block;
         top:-10px;
@@ -21,11 +33,38 @@ poczytaj rwd cz2 o img i background*/
         transform: scale(0,1);
         transition: transform ease-in-out .2s;
     }
-}
 
-.navbar a:not(.navbar-brand):hover::before{
+
+    a.nav-link:hover::before{
     transform: scale(1, 1);
 }
+
+img.mx-auto.d-block{
+    width: 8rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: $color-main-purple;
+    font-weight: bold;
+
+}
+
+@media(max-width:992px){
+.navbar-light .navbar-nav .nav-link{
+    color: $color-grey;
+    font-size: 100%;
+    text-transform: uppercase;
+    padding-right: 28px;
+}
+
+
+    }
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,8 @@
 .team{
-    padding-bottom: 20%;
+    
     .team-title{
         font-size: 150%;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
         .fa-users{
             color: $color-main-purple;
         }
@@ -11,17 +11,52 @@
 }
 
 
-.team-member--img--container {
+.team-member--containerImg {
     width: 55%;
     padding-bottom: 13%;
-
+    margin: 0 auto;
+    .team-member--containerImg--img{
+        border-radius: 50%;
+        width: 100%;
+        padding-bottom: 100%;
+        background-size: cover;
+        //background-image: url(/home/iga/Desktop/bestPal/images/team/hipster.jpg);
+    }
   }
-  
-  .team-member--img {
-    border-radius: 50%;
-    width: 100%;
-    padding-bottom: 100%;
-    background: url(/home/iga/Desktop/bestPal/images/blog/Jak_adoptować_kota.jpg) center no-repeat;
-    background-size: cover;
 
-  }
+.team > div > div:nth-child(1) > div > div.team-member--containerImg > div{
+    background-image: url(/home/iga/Desktop/bestPal/images/team/hipster.jpg);
+}
+
+.team > div > div:nth-child(2) > div > div.team-member--containerImg > div{
+    background-image: url(/home/iga/Desktop/bestPal/images/team/Iga.jpg);
+}
+
+
+.team > div > div:nth-child(3) > div > div.team-member--containerImg > div{
+    background-image: url(/home/iga/Desktop/bestPal/images/team/3.jpg);
+}
+
+
+.team > div > div:nth-child(4) > div > div.team-member--containerImg > div{
+    background-image: url(/home/iga/Desktop/bestPal/images/team/4.jpg);
+}
+
+
+
+
+
+.team-member {
+    line-height: 1.5;
+    text-align: center;
+
+        .team-member--role{
+            font-weight: bold;
+            padding-top: 5%;
+            color:$color-main-purple;
+        }
+        .team-member--description {
+            padding: 10%;
+            text-align: left;
+        }
+}

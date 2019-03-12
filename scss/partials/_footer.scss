@@ -1,26 +1,22 @@
-/* {
 
-  }
-
-  */
   .page-footer{
-    position: fixed;
+
     bottom: 0;
     width: 100%;
-    background-color: $color-main-yellow;
-    padding: 1%;
+    background-color: $color-main-purple;
+    min-height: 76px;
+    color: #fff;
 
-
-    .container.text-center.text-md-left.mt-5 {
-        padding: 1%;
-    }
-    a{
-        color: $color-font;
-    }
-
+   
   }
 
-  img.footer--logo.d-inline-block.align-top {
-    width: 25%;
+  a {
+    color: #fff;
+
 }
+  a:hover {
+    color:$color-main-yellow;
+
+}
+
 
