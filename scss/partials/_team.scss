@@ -1,8 +1,9 @@
 .team{
-    
+    font-family: $font-main;
     .team-title{
         font-size: 150%;
         padding-bottom: 4%;
+        font-family: $font-header;
         .fa-users{
             color: $color-main-purple;
         }
@@ -20,26 +21,26 @@
         width: 100%;
         padding-bottom: 100%;
         background-size: cover;
-        //background-image: url(/home/iga/Desktop/bestPal/images/team/hipster.jpg);
+
     }
   }
 
 .team > div > div:nth-child(1) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/hipster.jpg);
+    background-image: url(/home/iga/Desktop/bestPal/images/team/1-team.jpg);
 }
 
 .team > div > div:nth-child(2) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/Iga.jpg);
+    background-image: url(/home/iga/Desktop/bestPal/images/team/2-team.jpg);
 }
 
 
 .team > div > div:nth-child(3) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/3.jpg);
+    background-image: url(/home/iga/Desktop/bestPal/images/team/3-team.jpg);
 }
 
 
 .team > div > div:nth-child(4) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/4.jpg);
+    background-image: url(/home/iga/Desktop/bestPal/images/team/4-team.jpg);
 }
 
 
@@ -49,11 +50,14 @@
 .team-member {
     line-height: 1.5;
     text-align: center;
-
+        .team-member--name{
+            font-family: $font-header;
+        }
         .team-member--role{
             font-weight: bold;
             padding-top: 5%;
             color:$color-main-purple;
+            text-transform: uppercase;
         }
         .team-member--description {
             padding: 10%;

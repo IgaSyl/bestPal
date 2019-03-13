@@ -1,8 +1,10 @@
 .card-blog{
     padding-bottom: 3%;
+    font-family: $font-main;
     .card-title {
         margin-bottom: .75rem;
         font-weight: bold;
+        font-family: $font-header;
     }
     .card-text{
         line-height: 1.5rem;
@@ -20,6 +22,7 @@
 .card-blog-title{
     font-size: 150%;
     padding-bottom: 2%;
+    font-family: $font-header;
     .fa-newspaper {
         color: $color-main-purple;
     }

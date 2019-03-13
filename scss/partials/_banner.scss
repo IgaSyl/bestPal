@@ -2,12 +2,13 @@
     position: relative;
     height: 70vh;
     margin-bottom: 100px;
+    font-family: $font-header;
         &>* {
         position: absolute;
         }
         .banner-button {
         text-align: center;
-        top: 8%;
+        top: 12%;
         transform: translateY(-50%);
         right: 7%;
         padding: 30px;
