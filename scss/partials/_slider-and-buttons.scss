@@ -9,15 +9,45 @@ div#slider-wrapper {
         padding: 8px;
     }
 }
-.slick-slide > img:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+
+
+// hover img
+/*
+.slick-slide{
+    overflow: hidden;
+    .slick-slide > img{
+        transition: transform .5s ease;
+
+      }
+      &:hover{
+        transform: scale(1.5);
+      }
+
+    }
+*/
+
+
+.slick-slide{
+overflow: hidden;
+
+
 }
+
+.slick-slide > img{
+    transition: transform .5s ease;
+
+  }
+
+  .slick-slide > img:hover{
+    transform: scale(1.5);
+  }
+
 
 .container.buttonCat {
     padding-bottom: 3%;
+    
 }
+
 
 
 // buttons

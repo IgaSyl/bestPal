@@ -3,3 +3,11 @@
 .flaticon{
     display: none;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  :target{
+    padding-top: 10%;
+  }
