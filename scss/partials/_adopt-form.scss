@@ -1,0 +1,334 @@
+body{
+    background-image: url("/home/iga/Desktop/bestPal/addopt-form/piesWkoszu.jpeg");
+    background-repeat: no-repeat;
+    background-size: 700px 1000px;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+/* NAV */
+
+/*
+nav {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #93b1c6;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%!important;
+    height: 80px;
+    z-index: 2;
+}
+
+*/
+/*
+nav ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+*/
+
+
+
+
+
+
+
+
+
+.card-title {
+    color: rgb(235, 110, 66)!important;
+}
+
+#header_form {
+
+    font-size: 25px;
+}
+
+
+
+
+
+.form-check {
+    font-family: 'Rokkitt', serif;
+    font-size: 21px;
+}
+
+.criterion, #woj{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    width: 300px;
+
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p:hover{
+    background-color: lightgray;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+.option{
+    border-bottom: 1px solid transparent;
+    height: 35px!important;
+    box-sizing: border-box!important;
+}
+
+.option:hover {
+    border-bottom: 2px solid rgb(235, 110, 66);
+}
+
+i{
+    color: rgb(235, 110, 66);
+
+}
+
+.form_img {
+
+}
+
+/*
+.background_form{
+    background-image: url("src/pictures/background_pictures/cat_contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*/
+
+
+
+.img_size{
+    width: 286px;
+    height: 214.5px;
+}
+
+
+
+
+
+
+#search_result_title {
+    color: rgb(235, 110, 66);
+    font-size: 30px;
+
+}
+
+.card-title{
+    font-size: 35px;
+    text-align: left;
+    width: 90%;
+    color: rgb(235, 110, 66)!important;
+    text-align: center;
+
+}
+
+#form_description {
+    margin-top: 100px!important;
+    font-size: 30px;
+    width: 70%;
+    text-align: left;
+    color: rgb(235, 110, 66)!important;
+
+
+}
+
+/*==============> okrągłe fot
+.img_size{
+    width: 300px !important;
+    border-radius: 70%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+*/
+
+.img_size {
+    width: 100% !important;
+}
+
+
+
+
+
+.btn{
+    background-color: rgb(235, 110, 66);
+    border-color: darkgrey;
+    float: right!important;
+}
+
+.name {
+    text-align: center;
+}
+
+
+
+
+.btn-primary:active{
+    background-color: darkgrey!important;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-weight: bold;
+    border: 1px solid rgb(235, 110, 66);
+}
+
+.btn-primary:visited{
+    background-color: rgb(235, 110, 66)!important;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-weight: bold;
+    border: 1px solid rgb(235, 110, 66);
+}
+
+.btn-primary:focus{
+    background-color: darkgrey!important;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-weight: bold;
+    border: 1px solid rgb(235, 110, 66);
+}
+.btn-primary:hover {
+    background-color: darkgrey !important;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-weight: bold;
+    border: 2px solid rgb(235, 110, 66);
+}
+
+.logo_single {
+    width: 50px;
+    height: 50px;
+}
+
+.search_result {
+    margin-top: 100px;
+
+}
+
+
+
+.img_one_pet {
+    width: 100% !important;
+    height: 40% !important;
+}
+
+
+
+.greeting {
+    color: #6b7187;
+}
+
+
+
+.card-body-height {
+    height: 500px!important;
+
+}
+
+.card {
+    border: none!important;
+}
+
+.result{
+    color: #6b7187;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.criterion-single-result {
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(235, 110, 66);
+}
+
+.criterion-all{
+    width: 220px!important;
+    float: left!important;
+}
+
+.results-all{
+    width: 300px!important;
+    float: right!important;
+}
+
+
+
+
+
+
+
+/*
+.card-text {
+    height: 300px!important;
+}
+
+*/
+
+
+/*
+.pet_card{
+    height: 300px;
+}
+
+*/
+
+.btn-submit-reset {
+    float: left;
+}
+
+.submit {
+    margin-left: 95px;
+}
+
+#form-title-2 {
+    color:black!important;
+    font-size: 20px!important;
+}
+
+.card-text{
+    margin-top: 20px!important;
+}
+
+.pointer {
+    cursor: pointer!important;}
+
+
+.criterion-result-container{
+
+}
+
+.btn-go-back {
+    width: 80px!important;
+   margin-left: 20px!important;
+
+}
+
+#form_title {
+    color: rgb(235, 110, 66);
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px!important;
+}
+
+select{
+    width: 300px!important;
+}
+
+
+
+
+
+
+
+
+

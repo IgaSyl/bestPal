@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///opt/lampp/htdocs/adoptuj/index_adoptuj.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>adoptuj</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./adoptuj_files/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="./adoptuj_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="./adoptuj_files/css" rel="stylesheet">
+    <link href="./adoptuj_files/css(1)" rel="stylesheet">
+    <link href="./adoptuj_files/css(2)" rel="stylesheet">
+
+    <link href="./adoptuj_files/style_search_.css" rel="stylesheet">
+    <link rel="stylesheet" href="./adoptuj_files/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+</head>
+
+<body><nav>
+    <ul>
+        <li><a href="file:///opt/lampp/htdocs/adoptuj/adoptuj/index.html">Adoptuj</a></li>
+        <li><a href="file:///opt/lampp/htdocs/adoptuj/index_adoptuj.html#" class="dog">Misja</a></li>
+        <li><img src="./adoptuj_files/logo22.svg" alt="logo"></li>
+        <li><a href="file:///opt/lampp/htdocs/adoptuj/index_adoptuj.html#" class="cat">O nas</a></li>
+        <li><a href="file:///opt/lampp/htdocs/adoptuj/index_adoptuj.html#">Kontakt</a></li>
+    </ul>
+</nav>
+
+<div id="form_description" class="container mt-4 mb-4">
+    <div id="form_title">
+    Nie szukaj schroniska. Znajdź przyjaciela.
+    </div>
+    <!--
+    <div  class="mt-3" id="form-title-2">
+        Skorzystaj z naszej wyszukiwarki i znajdź idealnie dopasowanego zwierzaka.</div>
+        -->
+
+
+</div>
+
+
+
+
+<div class="container">
+        <div class="row">
+            <div class="col">
+
+                <form action="file:///opt/lampp/htdocs/adoptuj/search.php" method="post">
+
+                    <p class="mt-3 criterion">
+                            <i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;
+
+                    Typ zwierzaka</p>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="type" id="type_dog" value="1">
+                        <label class="form-check-label option pointer" for="type_dog">Pies</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="type" id="cat" value="0">
+                        <label class="form-check-label option pointer" for="cat">Kot</label>
+                    </div>
+
+                <p class="mt-3 criterion"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Płeć zwierzaka</p>
+                <div class="form-check"> <!--form-check-inline-->
+                    <input class="form-check-input" type="radio" name="sex" id="female" value="0">
+                    <label class="form-check-label option pointer" for="female">samica</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sex" id="male" value="1">
+                    <label class="form-check-label option pointer" for="male">samiec</label>
+                </div>
+
+                <p class="mt-3 criterion"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Wiek zwierzaka</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="age" id="puppy" value="0">
+                    <label class="form-check-label option pointer" for="puppy">szczeniak/kociak</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="age" id="adult" value="1">
+                    <label class="form-check-label option pointer" for="adult">dorosły</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="age" id="senior" value="2">
+                    <label class="form-check-label option pointer" for="senior">senior</label>
+                </div>
+
+                <p class="mt-3 criterion"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    Przyjazny dzieciom</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="likeKids" id="yes_kids" value="0">
+                    <label class="form-check-label option pointer" for="yes_kids">tak</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="likeKids" id="no_kids" value="1">
+                    <label class="form-check-label option pointer" for="no_kids">nie ma znaczenia</label>
+                </div>
+                    <p class="mt-3 criterion"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;
+                        Aktywność zwierzaka</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="active" id="no_active" value="0">
+                        <label class="form-check-label option pointer" for="no_active">kanapowiec</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="active" id="medium_active" value="1">
+                        <label class="form-check-label option pointer" for="medium_active">średnio aktywny</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="active" id="active" value="2">
+                        <label class="form-check-label option pointer" for="active">aktywny</label>
+                    </div>
+                    <div class="form-group">
+
+                        <label class="mt-3" id="woj" for="voivodeship"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wojwództwo</label>
+                        <select name="voivodeship" class="form-control" id="voivodeship">
+                            <option value="0">-</option>
+                            <option value="1">dolnośląskie</option>
+                            <option value="2">kujawsko-pomorskie</option>
+                            <option value="3">lubelskie</option>
+                            <option value="4">lubuskie</option>
+                            <option value="5">łódzkie</option>
+                            <option value="6">małopolskie</option>
+                            <option value="7">mazowieckie</option>
+                            <option value="8">opolskie</option>
+                            <option value="9">podkarpackie</option>
+                            <option value="10">podlaskie</option>
+                            <option value="11">pomorskie</option>
+                            <option value="12">śląskie</option>
+                            <option value="13">świętokrzyskie</option>
+                            <option value="14">warmińsko-mazurskie</option>
+                            <option value="15">wielkopolskie</option>
+                            <option value="16">zachodniopomorskie</option>
+
+                        </select>
+                    </div>
+
+                <div class="btn-submit-reset">
+                    <button type="submit" class="btn btn-outline-dark submit">Szukaj</button>
+                    <button type="reset" class="btn btn-outline-dark">Wyczyść dane</button>
+                </div>
+    </form>
+    </div>
+            <div class="col">
+                <img src="file:///opt/lampp/htdocs/adoptuj/index_adoptuj.html">
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+<footer>
+    <p>Copyright © All rights reserved</p>
+    <a href="https://www.facebook.com/Zwierzochron-2078065928910258/"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+</footer>
+
+
+
+
+
+
+
+<script src="./adoptuj_files/adoptuj.js"></script>
+
+
+<script src="./adoptuj_files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="file:///opt/lampp/htdocs/adoptuj/adoptuj_Przemka/WORKON-project/script.js"></script>
+
+<script src="./adoptuj_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="./adoptuj_files/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="./adoptuj_files/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body></html>
