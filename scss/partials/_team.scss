@@ -1,10 +1,12 @@
-.team{
+.team {
     font-family: $font-main;
-    .team-title{
+
+    .team-title {
         font-size: 150%;
         padding-bottom: 4%;
         font-family: $font-header;
-        .fa-users{
+
+        .fa-users {
             color: $color-main-purple;
         }
     }
@@ -12,55 +14,30 @@
 }
 
 
-.team-member--containerImg {
-    width: 55%;
-    padding-bottom: 13%;
-    margin: 0 auto;
-    .team-member--containerImg--img{
-        border-radius: 50%;
-        width: 100%;
-        padding-bottom: 100%;
-        background-size: cover;
-
-    }
-  }
-
-  .team > div > div:nth-child(1) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/1-team.jpg);
-}
-
-.team > div > div:nth-child(2) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/2-team.jpg);
-}
-
-
-.team > div > div:nth-child(3) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/3-team.jpg);
-}
-
-
-.team > div > div:nth-child(4) > div > div.team-member--containerImg > div{
-    background-image: url(/home/iga/Desktop/bestPal/images/team/4-team.jpg);
-}
-
-
-
-
-
 .team-member {
     line-height: 1.5;
     text-align: center;
-        .team-member--name{
-            font-family: $font-header;
-        }
-        .team-member--role{
-            font-weight: bold;
-            padding-top: 5%;
-            color:$color-main-purple;
-            text-transform: uppercase;
-        }
-        .team-member--description {
-            padding: 10%;
-            text-align: left;
-        }
+
+    .team-member-img {
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
+    }
+
+    .team-member-name {
+        font-family: $font-header;
+        padding-top: 15px;
+    }
+
+    .team-member-role {
+        font-weight: bold;
+        padding-top: 5%;
+        color: $color-main-purple;
+        text-transform: uppercase;
+    }
+
+    .team-member-description {
+        padding: 10%;
+        text-align: left;
+    }
 }

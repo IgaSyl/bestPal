@@ -1,29 +1,28 @@
+.page-footer {
 
-  .page-footer{
+  bottom: 0;
+  width: 100%;
+  background-color: $color-main-purple;
+  min-height: 76px;
+  color: #fff;
 
-    bottom: 0;
-    width: 100%;
-    background-color: $color-main-purple;
-    min-height: 76px;
-    color: #fff;
+  ul.page-footer-social-media {
+    margin: 0 auto;
+    transition: transform .5s ease-in-out;
 
-   
+    a {
+      color: #fff;
+
+      &:hover {
+        color: $color-main-yellow;
+      }
+    }
+
+    li:hover {
+      transform: scale(2) rotate(25deg);
+
+
+    }
   }
 
-
-
-ul.page-footer-social-media {
-  margin: 0 auto;
-  transition: transform .5s ease-in-out;
-  li:hover{
-    transform: scale(2) rotate(25deg);
-
 }
-}
-
-a{
-        color: #fff;
-        &:hover{
- color:$color-main-yellow;
-        }
-        }
